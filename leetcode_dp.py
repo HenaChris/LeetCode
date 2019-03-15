@@ -20,7 +20,7 @@ def maxSubArray(nums):
 if __name__ == "__main__":
     nums1 = input().split(",")
     nums = []
-    for each in nums1[1:-2]:
+    for each in nums1:
         nums.append(int(each))
     print(maxSubArray(nums))
 
